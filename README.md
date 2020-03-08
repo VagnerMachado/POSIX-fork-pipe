@@ -3,7 +3,8 @@
 ---   
 
 A simple project that explores system calls, input validation and inter-process communication of a child and parent process through a POSIX pipe.   
-Must be used in a device that supports POSIX system calls, i.e MacOS, Linux.
+Must be used in a device that supports POSIX system calls, i.e MacOS, Linux.    
+
 ---  
 
 Write a C program called time.c that determines the amount of time necessary to run a command from the command line. This program will be run as “./time <command>” and will report the amount of elapsed time to run the specified command. This will involve using fork() and exec() functions, as well as the gettimeofday() function to determine the elapsed time. It will also require the use of two different IPC mechanisms.  

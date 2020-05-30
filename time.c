@@ -147,7 +147,7 @@ int main(int argc, const char * argv[])
 		}
 		else
 		{
-			printf("\n\n *** Error in child process, parent process is exited execution ***\n\n");
+			printf("\n\n *** Error in child process, parent process exited execution ***\n\n");
 			return -1;
 		}
 	}
